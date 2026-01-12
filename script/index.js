@@ -22,7 +22,7 @@ function displaycategories(categories) {
     console.log(cat);
       //create element for each object
     const categoryDiv = document.createElement("div");
-    categoryDiv.innerHTML = ` <button class="btn btn-sm">${cat.category}</button>`;
+    categoryDiv.innerHTML = ` <button class="btn btn-sm hover:bg-[#FF1F3D] hover:text-white">${cat.category}</button>`;
      //Append the element 
      categoryContainer.appendChild(categoryDiv);
    }
