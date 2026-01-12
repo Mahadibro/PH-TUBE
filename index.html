@@ -11,14 +11,22 @@
 </head>
 <body>
     <header>
-        <nav class="w-11/12 mx-auto flex  justify-between">
+        <nav class="w-11/12 mx-auto flex  justify-between border-b-2 py-5 border-[#17171720]">
             <div class="logo">
-                <img src="./assets/Logo.png" alt="">
+                <img class="w-[120px]" src="./assets/Logo.png" alt="">
             </div>
-            <div class="sort">Sort</div>
-            <div class="blogs">Blogs</div>
+            <div class="sort">
+                <button class="btn">Sort By View</button>
+            </div>
+            <div class="blogs">
+                <button class="btn bg-[#FF1F3D] text-white">Blogs</button>
+            </div>
         </nav>
     </header>
+    <nav id="category-container" class="flex py-5 justify-center">
+        <button class="btn btn-sm">All</button>
+
+    </nav>
     
 </body>
 </html>
