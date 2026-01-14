@@ -54,17 +54,17 @@ function loadcategories() {
     const detailscontainer=document.getElementById("details-container");
     detailscontainer.innerHTML=`
     <h2>${video.title}</h2>
-    <div class="card bg-base-100 image-full w-96 shadow-sm">
+    <div class="card bg-base-100 image-full  shadow-sm">
   <figure>
     <img
       src="${video.thumbnail}"
       alt="Shoes" />
   </figure>
   <div class="card-body">
-    <h2 class="card-title">Card Title</h2>
-    <p>A card component has a figure, a body part, and inside body there are title and actions parts</p>
+    <h2 class="card-title">${video.title}</h2>
+    <p>${video.description}</p>
     <div class="card-actions justify-end">
-      <button class="btn btn-primary">Buy Now</button>
+      
     </div>
   </div>
 </div>
